@@ -29,9 +29,9 @@ for directory in [DATA_DIR, LOGS_DIR, REPORTS_DIR, METRICS_DIR, BACKUP_DIR]:
     directory.mkdir(parents=True, exist_ok=True)
 
 # Telegram Bot Configuration
-BOT_TOKEN = "7205224892:AAGBoEw1RaYd-oEA26GUDcBD95hbA9Ayo30"
-ADMIN_USER_ID = 798926067
-AUTHORIZED_USERS = [798926067]  # Initial admin users
+BOT_TOKEN = "YOUR TOKEN"
+ADMIN_USER_ID = YOUR ID
+AUTHORIZED_USERS = [YOUR ID]  # Initial admin users
 
 # Files
 CONFIG_FILE = CONFIG_DIR / "config.json"
