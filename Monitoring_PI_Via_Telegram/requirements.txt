@@ -1,0 +1,50 @@
+# Advanced Raspberry Pi Monitoring System - Dependencies
+# Core requirements for production deployment
+
+# Telegram Bot Framework
+python-telegram-bot==20.7
+
+# HTTP Requests & Web APIs
+requests==2.31.0
+
+# System & Process Monitoring
+psutil==5.9.6
+
+# Network Interface Management
+netifaces==0.11.0
+
+# Data Visualization (optional, for advanced reports)
+matplotlib==3.8.2
+numpy==1.24.3
+
+# Task Scheduling
+schedule==1.2.0
+
+# Configuration & Logging
+pyyaml==6.0.1
+
+# Database support (optional, for metrics storage)
+sqlite3  # Built-in to Python
+
+# Development & Testing Dependencies (optional)
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Security & Cryptography
+cryptography==41.0.7
+
+# Additional utilities
+python-dateutil==2.8.2
+colorlog==6.7.0
+
+# Optional: For advanced network monitoring
+# nmap-python==1.5.4  # Uncomment if network scanning is needed
+
+# Optional: For hardware-specific monitoring on Raspberry Pi
+# RPi.GPIO==0.7.1     # Uncomment for GPIO monitoring
+# w1thermsensor==2.0.0 # Uncomment for 1-wire temperature sensors
+
+# Note: Some system packages may need to be installed separately:
+# sudo apt-get install -y python3-dev python3-pip
+# sudo apt-get install -y smartmontools  # For SMART disk monitoring
+# sudo apt-get install -y lm-sensors     # For hardware sensors
